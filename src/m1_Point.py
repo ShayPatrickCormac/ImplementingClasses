@@ -39,6 +39,12 @@ def main():
 #   Run the program and correct any syntax (notational) errors.
 # ----------------------------------------------------------------------
 
+
+
+class Point(object):
+    pass
+
+
 ########################################################################
 # NOTE: For ALL of the methods that you implement, the method is allowed
 # to have additional side effects as needed by it and/or other methods.
@@ -151,7 +157,6 @@ class Point(object):
     def __init__(self,x,y):
         self.x = x
         self.y = y
-
 
 
 
